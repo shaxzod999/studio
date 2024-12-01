@@ -1,0 +1,288 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1 !important;
+  filter: brightness(50%);
+}
+
+.hero_section {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 200px;
+  margin-top: 100px !important;
+  margin-bottom: 100px;
+  z-index: 999999 !important;
+}
+
+.hero_section-bottom {
+  position: relative !important;
+  width: 100% !important;
+  height: 50%;
+  display: flex;
+  align-items: flex-end !important;
+  justify-content: space-between !important;
+  gap: 50px;
+  z-index: 999999 !important;
+}
+
+.hero_section-top {
+  position: relative !important;
+  width: 100% !important;
+  height: 50% !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  z-index: 999999 !important;
+}
+.hero_section-bottom .hero_section-left {
+  width: 65% !important;
+  height: 50%;
+  display: flex !important;
+  align-items: start !important;
+  justify-content: space-between !important;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero_section-left :nth-child(1) {
+  width: 65%;
+  display: flex !important;
+  align-items: start !important;
+  justify-content: start !important;
+  flex-direction: column;
+  gap: 50px;
+}
+.hero_section-left p {
+  font-family: LT Remark;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40.53px;
+  text-align: left;
+  background-image: url("/assets/background-img/Rectangle\ 40.png");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+.hero_section-left img {
+  width: 370px !important;
+  height: 70px !important;
+  object-fit: cover;
+}
+.hero_section-top {
+  width: 100% !important;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.hero_section-right-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.hero_section-right-translate {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero_section-right-translate {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.hero_section-right-translate img {
+  cursor: pointer;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 1150px) {
+  .hero_section-left {
+    width: 100%;
+  }
+  .hero_section-left img {
+    display: none;
+  }
+  .hero_section-bottom .hero_section-left {
+    width: 70% !important;
+    height: 50%;
+    display: flex !important;
+    align-items: start !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero_section-left :nth-child(1) {
+    width: 100%;
+    display: flex !important;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero_section {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+    flex-direction: column-reverse;
+    gap: 0px;
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+    z-index: 999999 !important;
+  }
+  .hero_section-bottom {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+    gap: 50px;
+    z-index: 999999 !important;
+  }
+
+  .hero_section-top {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex;
+    align-items: end !important;
+    justify-content: end !important;
+    z-index: 999999 !important;
+  }
+  .hero_section-right-icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end !important;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 50px;
+  }
+  .hero_section-right-translate {
+    display: none !important;
+  }
+  .hero_section-bottom .hero_section-left {
+    width: 100% !important;
+    height: 50%;
+    display: flex !important;
+    align-items: start !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero_section-left :nth-child(1) {
+    width: 100%;
+    display: flex !important;
+    align-items: start !important;
+    justify-content: start !important;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .hero_section-left p {
+    font-family: LT Remark;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+  }
+}
+
+.hover-effect {
+  display: inline-block;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.hover-effect img {
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.hover-effect .default-img {
+  opacity: 1;
+  z-index: 1;
+  width: 75px !important;
+  height: 75px !important;
+  top: 0 !important;
+  left: 10px !important;
+}
+
+.hover-effect .hover-img {
+  opacity: 0;
+  z-index: 2;
+  width: 100px !important;
+  height: 100px !important;
+  top: -13px !important;
+  left: -3px !important;
+}
+
+.hover-effect:hover .default-img {
+  opacity: 0;
+}
+
+.hover-effect:hover .hover-img {
+  opacity: 1;
+}

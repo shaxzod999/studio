@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDIO</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="/stayle.css" />
+    <link rel="stylesheet" href="/css/heder.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/ourwork.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/prices.css" />
+    <link rel="stylesheet" href="/css/packaging.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="heder">
+        <div class="container">
+          <div class="heder_section">
+            <div class="heder_section-logo">
+              <img src="/assets/arrows/Left line.png" alt="" />
+              <img src="/assets/Logo/Logo (5).png" alt="" />
+              <img src="/assets/arrows/Right line.png" alt="" />
+            </div>
+            <div class="translate-section heder-translate">
+              <img
+                id="en-active"
+                src="/assets/buttons/translate/EN-activ.png"
+                alt="English Active"
+                style="display: none"
+              />
+              <img
+                id="en-inactive"
+                src="/assets/buttons/translate/EN-no-activ.png"
+                alt="English Inactive"
+              />
+              <img
+                id="ru-active"
+                src="/assets/buttons/translate/RU-activ.png"
+                alt="Russian Active"
+                style="display: none"
+              />
+              <img
+                id="ru-inactive"
+                src="/assets/buttons/translate/RU-no-activ.png"
+                alt="Russian Inactive"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <video class="bg-video" autoplay loop muted>
+          <source src="/assets/bgVideo.webm" type="video/webm" />
+        </video>
+        <div class="container">
+          <div class="hero_section">
+            <div class="hero_section-top">
+              <div class="hero_section-right-icons">
+                <a
+                  href="https://web.telegram.org/k/"
+                  target="_blank"
+                  class="hover-effect"
+                >
+                  <img
+                    class="default-img"
+                    src="/assets/icons/▶ Social network states.png"
+                    alt=""
+                  />
+                  <img
+                    class="hover-img"
+                    src="/assets/icons/Social network states (3).png"
+                    alt=""
+                  />
+                </a>
+
+                <a
+                  href="https://web.telegram.org/k/"
+                  target="_blank"
+                  class="hover-effect"
+                >
+                  <img
+                    class="default-img"
+                    src="/assets/icons/Social network states (1).svg"
+                    alt=""
+                  />
+                  <img
+                    class="hover-img"
+                    src="/assets/icons/Social network states (3).png"
+                    alt=""
+                  />
+                </a>
+
+                <a
+                  href="https://web.telegram.org/k/"
+                  target="_blank"
+                  class="hover-effect"
+                >
+                  <img
+                    class="default-img"
+                    src="/assets/icons/Social network states (2).svg"
+                    alt=""
+                  />
+                  <img
+                    class="hover-img"
+                    src="/assets/icons/Social network states (3).png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="hero_section-bottom">
+              <div class="hero_section-left">
+                <p data-i18n="description">
+                  Creative /art direction, interaction design. branding, web,
+                  motion & ui/ux
+                </p>
+                <img src="/assets/buttons/Property 1=Enable.svg" alt="" />
+              </div>
+              <div class="translate-section hero_section-right-translate">
+                <img
+                  id="en-active"
+                  src="/assets/buttons/translate/EN-activ.png"
+                  alt="English Active"
+                  style="display: none"
+                />
+                <img
+                  id="en-inactive"
+                  src="/assets/buttons/translate/EN-no-activ.png"
+                  alt="English Inactive"
+                />
+                <img
+                  id="ru-active"
+                  src="/assets/buttons/translate/RU-activ.png"
+                  alt="Russian Active"
+                  style="display: none"
+                />
+                <img
+                  id="ru-inactive"
+                  src="/assets/buttons/translate/RU-no-activ.png"
+                  alt="Russian Inactive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ourwork">
+        <div class="container">
+          <div class="ourwork_section">
+            <div class="ourwork_section-top">
+              <div class="ourwork_section-top-title">
+                <img src="/assets/arrows/Left line.png" alt="" />
+                <h1 data-i18n="OUR WORK">OUR WORK</h1>
+                <img src="/assets/arrows/Right line.png" alt="" />
+              </div>
+              <div class="scroll-container">
+                <div>
+                  <div class="carousel-list">
+                    <div class="filter-buttons">
+                      <button
+                        data-i18n="All"
+                        onclick="filterCards('all', this)"
+                        class="active"
+                      >
+                        All
+                      </button>
+                      <button
+                        data-i18n="Logotype"
+                        onclick="filterCards('logotype', this)"
+                      >
+                        Logotype
+                      </button>
+                      <button
+                        data-i18n="art"
+                        onclick="filterCards('art', this)"
+                      >
+                        Art
+                      </button>
+                      <button
+                        data-i18n="Web game design"
+                        onclick="filterCards('web-game-design', this)"
+                      >
+                        Web Game Design
+                      </button>
+                      <button
+                        data-i18n="Game Interface"
+                        onclick="filterCards('game-interface', this)"
+                      >
+                        Game Interface
+                      </button>
+                      <button
+                        data-i18n="Animation"
+                        onclick="filterCards('animation', this)"
+                      >
+                        Animation
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-container">
+              <div class="ourwork-carousel"></div>
+              <div class="carousel-arrows">
+                <button class="left-arrow">
+                  <img src="/assets/arrows/Линаа.png" alt="Left Arrow" />
+                </button>
+                <button class="right-arrow">
+                  <img src="/assets/arrows/Линаа.png" alt="Right Arrow" />
+                </button>
+              </div>
+              <div class="carousel-radios"></div>
+            </div>
+
+            <!-- <div class="radio-controls">
+              <label>
+                <input type="radio" name="carousel-radio" value="0" checked />
+                <span></span>
+              </label>
+              <label>
+                <input type="radio" name="carousel-radio" value="1" />
+                <span></span>
+              </label>
+              <label>
+                <input type="radio" name="carousel-radio" value="2" />
+                <span></span>
+              </label>
+              <label>
+                <input type="radio" name="carousel-radio" value="3" />
+                <span></span>
+              </label>
+              <label>
+                <input type="radio" name="carousel-radio" value="4" />
+                <span></span>
+              </label>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="container">
+          <div class="about_section">
+            <div class="about_section-left">
+              <img src="/assets/about/Рамка для видео 1.png" alt="" />
+              <video class="video" autoplay loop muted>
+                <source
+                  src="/assets/de799cbf7550f044970b5415770d3d5a.gif.mp4"
+                  type="video/mp4"
+                />
+                Sizning brauzeringiz video formatini qo'llab-quvvatlamaydi.
+              </video>
+              <img src="/assets/about/Рамка для видео 2.png" alt="" />
+            </div>
+            <div class="about_section-right">
+              <img
+                src="/assets/Logo/MEV STUDIO v2 without BG (PNG) 1.png"
+                alt=""
+              />
+              <p
+                data-i18n="Welcome to a world where creativity and teztechnology come together to create unique game worlds! We are a team of experienced designers who turn ideas into exciting, living universes. Our services include conceptual art projects, character creation, character design, design"
+              >
+                Welcome to a world where creativity and teztechnology come
+                together to create unique game worlds! We are a team of
+                experienced designers who turn ideas into exciting, living
+                universes. Our services include conceptual art projects,
+                character creation, character design, design
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="prices">
+        <div class="container">
+          <div class="prices_section">
+            <div class="prices_section-top">
+              <img src="/assets/arrows/Left line.png" alt="" />
+              <h1 data-i18n="prices">prices</h1>
+              <img src="/assets/arrows/Right line.png" alt="" />
+            </div>
+            <div class="prices_section-bottom">
+              <div class="prices_section-bottom-cards-top">
+                <div>
+                  <div class="prices_section-bottom-card">
+                    <h3 data-i18n="art">art</h3>
+                    <div class="h4">
+                      <h4 data-i18n="from">from</h4>
+                      <h5>100 $</h5>
+                    </div>
+                  </div>
+                  <div class="prices_section-bottom-card">
+                    <h3 data-i18n="Animation">Animation</h3>
+                    <div class="h4">
+                      <h4 data-i18n="from">from</h4>
+                      <h5>50 $</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="prices_section-bottom-card card1">
+                  <h3 data-i18n="wEB GAME DESIGN">wEB GAME DESIGN</h3>
+                  <div class="h4">
+                    <h4 data-i18n="from">from</h4>
+                    <h5>300 $</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="prices_section-bottom-cards-bottom">
+                <div class="prices_section-bottom-card">
+                  <h3 data-i18n="Game Interface">Game Interface</h3>
+                  <div class="h4">
+                    <h4 data-i18n="from">from</h4>
+                    <h5>300 $</h5>
+                  </div>
+                </div>
+                <div class="prices_section-bottom-card">
+                  <h3 data-i18n="Logotype">Logotype</h3>
+                  <div class="h4">
+                    <h4 data-i18n="from">from</h4>
+                    <h5>200 $</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="packaging">
+        <div class="container">
+          <div class="packaging_section">
+            <div class="packaging_section-top">
+              <img src="/assets/arrows/Left line.png" alt="" />
+              <h1 data-i18n="Choose your packaging">Choose your packaging</h1>
+              <img src="/assets/arrows/Right line.png" alt="" />
+            </div>
+            <div class="packaging_section-bottom">
+              <div class="packaging_section-bottom-card1">
+                <h2 data-i18n="Interface">Interface</h2>
+                <h3 data-i18n="Professional custom artwork to suit any taste">
+                  Professional custom artwork to suit any taste
+                </h3>
+                <div>
+                  <h4 data-i18n="from">from</h4>
+                  <h5>100 $</h5>
+                </div>
+              </div>
+              <div class="packaging_section-bottom-card2">
+                <h2 data-i18n="Gold pack">Gold pack</h2>
+                <h3 data-i18n="Professional custom artwork to suit any taste">
+                  Professional custom artwork to suit any taste
+                </h3>
+                <div>
+                  <h4 data-i18n="from">from</h4>
+                  <h5>300 $</h5>
+                </div>
+              </div>
+              <div class="packaging_section-bottom-card3">
+                <h2 data-i18n="Diamond pack">Diamond pack</h2>
+                <h3 data-i18n="Professional custom artwork to suit any taste">
+                  Professional custom artwork to suit any taste
+                </h3>
+                <div>
+                  <h4 data-i18n="from">from</h4>
+                  <h5>1000 $</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="footer_section">
+            <div class="footer_section-top">
+              <img src="/assets/arrows/Left line.png" alt="" />
+              <h1 data-i18n="Let’s work together">Let’s work together</h1>
+              <img src="/assets/arrows/Right line.png" alt="" />
+            </div>
+            <div class="footer_section-icons">
+              <a
+                href="https://web.telegram.org/k/"
+                target="_blank"
+                class="hover-effect"
+              >
+                <img
+                  class="default-img"
+                  src="/assets/icons/▶ Social network states.png"
+                  alt=""
+                />
+                <img
+                  class="hover-img"
+                  src="/assets/icons/Social network states (3).png"
+                  alt=""
+                />
+              </a>
+
+              <a
+                href="https://web.telegram.org/k/"
+                target="_blank"
+                class="hover-effect"
+              >
+                <img
+                  class="default-img"
+                  src="/assets/icons/Social network states (1).svg"
+                  alt=""
+                />
+                <img
+                  class="hover-img"
+                  src="/assets/icons/Social network states (3).png"
+                  alt=""
+                />
+              </a>
+
+              <a
+                href="https://web.telegram.org/k/"
+                target="_blank"
+                class="hover-effect"
+              >
+                <img
+                  class="default-img"
+                  src="/assets/icons/Social network states (2).svg"
+                  alt=""
+                />
+                <img
+                  class="hover-img"
+                  src="/assets/icons/Social network states (3).png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <h4>MEV STUDIO - 2024</h4>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/i18next@21.6.3/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.4/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="/js/carousel.js"></script>
+    <script src="/script.js"></script>
+
+    <script>
+      let scrollSpeed = 0.2;
+
+      window.addEventListener(
+        "wheel",
+        function (event) {
+          event.preventDefault();
+          let scrollAmount = event.deltaY * scrollSpeed;
+          window.scrollBy({
+            top: scrollAmount,
+            behavior: "auto",
+          });
+        },
+        { passive: false }
+      );
+    </script>
+  </body>
+</html>

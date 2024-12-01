@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: LT Remark;
+}
+body {
+  overflow-x: hidden;
+  background: #000;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  position: relative;
+}

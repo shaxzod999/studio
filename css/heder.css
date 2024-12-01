@@ -1,0 +1,70 @@
+.heder {
+  width: 100%;
+  height: 80px;
+  background: none;
+  margin-bottom: -80px;
+  position: relative;
+  z-index: 99999 !important;
+}
+.heder_section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.heder_section-logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heder_section .heder_section-logo img:nth-child(1) {
+  width: 35% !important;
+  display: block;
+}
+.heder_section .heder_section-logo img:nth-child(3) {
+  width: 35% !important;
+  display: block;
+}
+.heder-translate {
+  display: none !important;
+}
+@media (max-width: 768px) {
+  .heder_section img:nth-child(1) {
+    display: none !important;
+  }
+  .heder_section img:nth-child(3) {
+    display: none !important;
+  }
+  .heder_section img:nth-child(2) {
+    width: 150px;
+    height: 58px;
+  }
+  .heder-translate {
+    display: block !important;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+  .heder-translate img {
+    cursor: pointer;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  #en-active,
+  #en-inactive,
+  #ru-active,
+  #ru-inactive {
+    cursor: pointer;
+    width: 50px !important;
+    height: 50px !important;
+  }
+}

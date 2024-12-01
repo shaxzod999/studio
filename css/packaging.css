@@ -1,0 +1,716 @@
+.packaging {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  background-image: url("/assets/background-img/Mask\ group.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.packaging_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.packaging_section-top {
+  width: 100%;
+  height: 80px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-family: LT Remark;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 76px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-image: url("/assets/background-img/Rectangle\ 40.png");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  white-space: nowrap !important;
+}
+.packaging_section-top img {
+  width: 25%;
+  height: 80px;
+  margin-bottom: 15px;
+}
+.packaging_section-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.packaging_section-bottom-card1 {
+  width: 420px;
+  height: 470px;
+  background-image: url("/assets/background-img/фон\ 3\ свет.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+.packaging_section-bottom-card1 h2 {
+  color: #fff;
+  font-family: LT Remark;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 68.9px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.packaging_section-bottom-card1 h3 {
+  font-family: LT Remark;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.51px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #bbbbbb84;
+}
+.packaging_section-bottom-card1 h5 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  background-image: url("/assets/background-img/Rectangle\ 40.png");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 6px;
+  font-family: LT Remark;
+}
+.packaging_section-bottom-card1 div {
+  text-align: center;
+  font-family: LT Remark;
+  font-size: 20px;
+  font-weight: 400;
+  background-image: url("/assets/background-img/Rectangle\ 40.png");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 60px;
+}
+
+.packaging_section-bottom-card2 {
+  width: 420px;
+  height: 470px;
+  background-image: url("/assets/background-img/фон\ золотой\ свет.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+.packaging_section-bottom-card2 h2 {
+  color: #fff;
+  font-family: LT Remark;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 68.9px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.packaging_section-bottom-card2 h3 {
+  font-family: LT Remark;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.51px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #bbbbbb84;
+}
+.packaging_section-bottom-card2 div {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  font-family: LT Remark;
+  font-size: 20px;
+  font-weight: 400;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  gap: 4px;
+}
+.packaging_section-bottom-card2 h5 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 6px;
+  font-family: LT Remark;
+}
+
+.packaging_section-bottom-card3 {
+  width: 420px;
+  height: 470px;
+  background-image: url("/assets/background-img/фон\ алмаз\ 1свет.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+.packaging_section-bottom-card3 h2 {
+  color: #fff;
+  font-family: LT Remark;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 68.9px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+  background-size: cover;
+  background-clip: text;
+  background-position: center;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.packaging_section-bottom-card3 h3 {
+  font-family: LT Remark;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.51px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #bbbbbb84;
+}
+.packaging_section-bottom-card3 h5 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+  background-size: cover;
+  background-clip: text;
+  background-position: center;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 6px;
+  font-family: LT Remark;
+}
+.packaging_section-bottom-card3 div {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  font-family: LT Remark;
+  font-size: 20px;
+  font-weight: 400;
+  background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+  background-size: cover;
+  background-clip: text;
+  background-position: center;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  gap: 4px;
+}
+
+@media (min-width: 767px) {
+  .packaging_section-bottom div {
+    width: 30%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-size: cover !important;
+  }
+  .packaging_section-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .packaging_section-top {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    white-space: wrap !important;
+  }
+  .packaging_section-bottom-card1 {
+    width: 360px !important;
+    height: 400px;
+    background-image: url("/assets/background-img/фон\ 3\ свет.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .packaging_section-bottom-card1 h2 {
+    color: #fff;
+    font-family: LT Remark;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 68.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .packaging_section-bottom-card1 h3 {
+    font-family: LT Remark;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #bbbbbb84;
+  }
+  .packaging_section-bottom-card1 h5 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+    font-family: LT Remark;
+  }
+  .packaging_section-bottom-card1 div {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px !important;
+  }
+
+  .packaging_section-bottom-card2 {
+    width: 360px !important;
+    height: 400px;
+    background-image: url("/assets/background-img/фон\ золотой\ свет.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .packaging_section-bottom-card2 h2 {
+    color: #fff;
+    font-family: LT Remark;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 68.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .packaging_section-bottom-card2 h3 {
+    font-family: LT Remark;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #bbbbbb84;
+  }
+  .packaging_section-bottom-card2 h5 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+    font-family: LT Remark;
+  }
+  .packaging_section-bottom-card2 div {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px !important;
+  }
+
+  .packaging_section-bottom-card3 {
+    width: 360px !important;
+    height: 400px;
+    background-image: url("/assets/background-img/фон\ алмаз\ 1свет.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .packaging_section-bottom-card3 h2 {
+    color: #fff;
+    font-family: LT Remark;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 68.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .packaging_section-bottom-card3 h3 {
+    font-family: LT Remark;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #bbbbbb84;
+  }
+  .packaging_section-bottom-card3 h5 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+    font-family: LT Remark;
+  }
+  .packaging_section-bottom-card3 div {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 1150px) {
+  .packaging_section-top img {
+    display: none;
+  }
+  .packaging_section-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .packaging_section-top {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    white-space: wrap !important;
+    text-align: center;
+  }
+  .packaging_section-bottom-card1 {
+    width: 300px !important;
+    height: 340px;
+    background-image: url("/assets/background-img/фон\ 3\ свет.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .packaging_section-bottom-card1 h2 {
+    color: #fff;
+    font-family: LT Remark;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 68.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .packaging_section-bottom-card1 h3 {
+    font-family: LT Remark;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #bbbbbb84;
+  }
+  .packaging_section-bottom-card1 h5 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+    font-family: LT Remark;
+  }
+  .packaging_section-bottom-card1 div {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: url("/assets/background-img/Rectangle\ 40.png");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px !important;
+  }
+
+  .packaging_section-bottom-card2 {
+    width: 300px !important;
+    height: 340px;
+    background-image: url("/assets/background-img/фон\ золотой\ свет.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .packaging_section-bottom-card2 h2 {
+    color: #fff;
+    font-family: LT Remark;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 68.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .packaging_section-bottom-card2 h3 {
+    font-family: LT Remark;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #bbbbbb84;
+  }
+  .packaging_section-bottom-card2 h5 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+    font-family: LT Remark;
+  }
+  .packaging_section-bottom-card2 div {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/1ce6/db50/81fc4092bea16af4de56a291f6a860ec?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vxpy7c~lJx5XJmc7OMPjoiwoiegsu7oJ4Xi0ivfL7bOe6sZj-MZvvV0gUfC4z4Yj~ddIquInoQh7Oi~tAieT9xiE-oNxExWiHT9bsAh4~l3yZyCDPcxnRL1WbRVNJl-h4D9Yi2~p8blRnxWDYVi2p-0KwKlh2ou9oqUA-u-U927yvSWOMMk-oPFQz9IFIv4NakBPiwtw4I0low-oZ83~2c1ugbKq8eImlcjn3D7lciwDIryQ4gYSfh0gCafOJi6uYqqcWfL5LnFS8VVQWMO8BB0VUYZIVYq7VPHWzm1kxagErCMk54bprEFqhLGzbRlVv9y64obkcEqMTl3iAtgAPA__");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px !important;
+  }
+
+  .packaging_section-bottom-card3 {
+    width: 300px !important;
+    height: 340px;
+    background-image: url("/assets/background-img/фон\ алмаз\ 1свет.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  .packaging_section-bottom-card3 h2 {
+    color: #fff;
+    font-family: LT Remark;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 68.9px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .packaging_section-bottom-card3 h3 {
+    font-family: LT Remark;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #bbbbbb84;
+  }
+  .packaging_section-bottom-card3 h5 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 6px;
+    font-family: LT Remark;
+  }
+  .packaging_section-bottom-card3 div {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: LT Remark;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: url("https://s3-alpha-sig.figma.com/img/b8ab/0c00/e759255e905780bce7eb75f2d597a806?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kQBgcJc8r9eQRYd9P0EsreKtlPO-VQ0GygR5PhwT40rmaofhvAnZCG8OfGfxDg0LT7cI1avaT~Y3bH1eSwP~Ezrak6-vo0e4YgzkZ0rvfZPQwZanIXxZiev-UdCzm41OsXqmZ5K3b6pWl9fFDVCUUrfPL~8c42iDkyj8~WzsiAqm~aDc~NnytRUPTmxH7qQhUSLTiuT8Lw~1eYjy1JIs0-U0oMRYIllM4gZ8hJX-uvsxkbldKWHk3buBrvu4s1OkXiOEEimNWvobl85TNMLxg1EUV05z3v7lleU0gJc9cI1fFB5ImopL-NpnnzpUcDSkFPRvSIU1yqf3oELK8EWNUA__");
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 0px !important;
+  }
+}

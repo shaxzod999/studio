@@ -129,122 +129,115 @@ initializeTranslateSections();
 
 gsap.registerPlugin(ScrollTrigger);
 
-if (window.matchMedia("(max-width: 768px)").matches) {
-  // Animatsiya: Our Work bo'limi
-  gsap.from(".ourwork_section-top-title", {
-    scrollTrigger: {
-      trigger: ".ourwork",
-      start: "top center",
-      toggleActions: "play none none none",
-    },
-    opacity: 0,
-    y: -50,
-    duration: 2,
-    ease: "power2.out",
-  });
+gsap.from(".ourwork_section-top-title", {
+  scrollTrigger: {
+    trigger: ".ourwork",
+    start: "top center",
+    toggleActions: "play none none none",
+  },
+  opacity: 0,
+  y: -50,
+  duration: 2,
+  ease: "power2.out",
+});
 
-  gsap.from(".filter-buttons button", {
-    scrollTrigger: {
-      trigger: ".ourwork_section-top-title",
-      start: "top center",
-    },
-    opacity: 0,
-    y: 30,
-    duration: 1.5,
-    stagger: 0.3,
-    ease: "power2.out",
-  });
+gsap.from(".filter-buttons button", {
+  scrollTrigger: {
+    trigger: ".ourwork_section-top-title",
+    start: "top center",
+  },
+  opacity: 0,
+  y: 30,
+  duration: 1.5,
+  stagger: 0.3, 
+  ease: "power2.out",
+});
 
-  // Animatsiya: Carousel
-  gsap.from(".carousel-arrows button", {
-    scrollTrigger: {
-      trigger: ".carousel-container",
-      start: "top center",
-    },
-    scale: 0,
-    duration: 1.2,
-    stagger: 0.5,
-    ease: "back.out(1.7)",
-  });
+gsap.from(".carousel-arrows button", {
+  scrollTrigger: {
+    trigger: ".carousel-container",
+    start: "top center",
+  },
+  scale: 0,
+  duration: 1.2,
+  stagger: 0.5,
+  ease: "back.out(1.7)",
+});
 
-  gsap.from(".carousel-radios", {
-    scrollTrigger: {
-      trigger: ".carousel-container",
-      start: "top center",
-    },
-    opacity: 0,
-    y: 50,
-    duration: 1.8,
-    ease: "power2.out",
-  });
+gsap.from(".carousel-radios", {
+  scrollTrigger: {
+    trigger: ".carousel-container",
+    start: "top center",
+  },
+  opacity: 0,
+  y: 50,
+  duration: 1.8,
+  ease: "power2.out",
+});
 
-  // Animatsiya: About
-  gsap.from(".about_section-left video", {
+gsap.from(".about_section-left video", {
+  scrollTrigger: {
+    trigger: ".about_section",
+    start: "top 85%",
+    toggleActions: "play none none none",
+  },
+  opacity: 0,
+  y: 100,
+  duration: 2,
+  ease: "power4.out",
+  rotate: 180,
+});
+
+gsap.from(".about_section-left img, .about_section-right img", {
+  scrollTrigger: {
+    trigger: ".about_section-right",
+    start: "top 80%",
+  },
+  opacity: 0,
+  x: 150,
+  duration: 2.5,
+  ease: "expo.out",
+  rotate: -180,
+});
+
+gsap.from(".about_section-right p", {
+  scrollTrigger: {
+    trigger: ".about_section-right",
+    start: "top 80%",
+  },
+  opacity: 0,
+  y: 80,
+  duration: 2.5,
+  delay: 0.5,
+  ease: "power2.out",
+});
+
+gsap.from(".prices_section-bottom-card", {
+  scrollTrigger: {
+    trigger: ".prices_section-bottom",
+    start: "top 85%",
+    toggleActions: "play none none none",
+  },
+  opacity: 0,
+  y: 150,
+  rotate: 50,
+  duration: 2,
+  stagger: 0.6,
+  ease: "back.out(1.7)",
+});
+
+gsap.from(
+  ".packaging_section-bottom-card1, .packaging_section-bottom-card2, .packaging_section-bottom-card3",
+  {
     scrollTrigger: {
-      trigger: ".about_section",
+      trigger: ".packaging_section-bottom",
       start: "top 85%",
       toggleActions: "play none none none",
     },
     opacity: 0,
     y: 100,
-    duration: 2,
-    ease: "power4.out",
-    rotate: 180,
-  });
-
-  gsap.from(".about_section-left img, .about_section-right img", {
-    scrollTrigger: {
-      trigger: ".about_section-right",
-      start: "top 80%",
-    },
-    opacity: 0,
-    x: 150,
-    duration: 2.5,
-    ease: "expo.out",
-    rotate: -180,
-  });
-
-  gsap.from(".about_section-right p", {
-    scrollTrigger: {
-      trigger: ".about_section-right",
-      start: "top 80%",
-    },
-    opacity: 0,
-    y: 80,
-    duration: 2.5,
-    delay: 0.5,
-    ease: "power2.out",
-  });
-
-  // Animatsiya: Prices
-  gsap.from(".prices_section-bottom-card", {
-    scrollTrigger: {
-      trigger: ".prices_section-bottom",
-      start: "top 85%",
-      toggleActions: "play none none none",
-    },
-    opacity: 0,
-    y: 150,
-    rotate: 50,
-    duration: 2,
     stagger: 0.6,
-    ease: "back.out(1.7)",
-  });
-
-  // Animatsiya: Packaging
-  gsap.from(
-    ".packaging_section-bottom-card1, .packaging_section-bottom-card2, .packaging_section-bottom-card3",
-    {
-      scrollTrigger: {
-        trigger: ".packaging_section-bottom",
-        start: "top 85%",
-        toggleActions: "play none none none",
-      },
-      opacity: 0,
-      y: 100,
-      stagger: 0.6,
-      duration: 2.5,
-      ease: "power3.out",
-    }
-  );
-}
+    duration: 2.5,
+    ease: "power3.out",
+  }
+);

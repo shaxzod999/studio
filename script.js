@@ -129,184 +129,122 @@ initializeTranslateSections();
 
 gsap.registerPlugin(ScrollTrigger);
 
-window.onload = function () {
+if (window.matchMedia("(max-width: 768px)").matches) {
+  // Animatsiya: Our Work bo'limi
+  gsap.from(".ourwork_section-top-title", {
+    scrollTrigger: {
+      trigger: ".ourwork",
+      start: "top center",
+      toggleActions: "play none none none",
+    },
+    opacity: 0,
+    y: -50,
+    duration: 2,
+    ease: "power2.out",
+  });
+
   gsap.from(".filter-buttons button", {
-    duration: 1,
+    scrollTrigger: {
+      trigger: ".ourwork_section-top-title",
+      start: "top center",
+    },
+    opacity: 0,
+    y: 30,
+    duration: 1.5,
+    stagger: 0.3,
+    ease: "power2.out",
+  });
+
+  // Animatsiya: Carousel
+  gsap.from(".carousel-arrows button", {
+    scrollTrigger: {
+      trigger: ".carousel-container",
+      start: "top center",
+    },
+    scale: 0,
+    duration: 1.2,
+    stagger: 0.5,
+    ease: "back.out(1.7)",
+  });
+
+  gsap.from(".carousel-radios", {
+    scrollTrigger: {
+      trigger: ".carousel-container",
+      start: "top center",
+    },
     opacity: 0,
     y: 50,
-    stagger: 0.2,
-    ease: "power3.out",
-    delay: 1,
+    duration: 1.8,
+    ease: "power2.out",
+  });
+
+  // Animatsiya: About
+  gsap.from(".about_section-left video", {
     scrollTrigger: {
-      trigger: ".scroll-container",
-      start: "top 80%",
-      end: "bottom 20%",
-      scrub: true,
-      once: true,
+      trigger: ".about_section",
+      start: "top 85%",
+      toggleActions: "play none none none",
     },
-  });
-};
-
-function filterCards(category, button) {
-  document.querySelectorAll(".filter-buttons button").forEach((btn) => {
-    btn.classList.remove("active");
-  });
-  button.classList.add("active");
-
-  gsap.to(button, {
-    duration: 0.3,
-    scale: 1.1,
-    ease: "bounce.out",
-    yoyo: true,
-    repeat: 1,
-  });
-}
-
-gsap.from(".carousel-container", {
-  duration: 1,
-  opacity: 0,
-  y: 50,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: ".carousel-container",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: true,
-    once: true,
-  },
-});
-
-ScrollTrigger.create({
-  trigger: ".carousel-container",
-  start: "top 80%",
-  onEnter: function () {
-    document.querySelector(".carousel-container").classList.add("show");
-  },
-  onLeave: function () {
-    document.querySelector(".carousel-container").classList.remove("show");
-  },
-});
-
-gsap.from(".about_section-left", {
-  duration: 1,
-  opacity: 0,
-  y: 50,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: ".about_section-left",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: true,
-    once: true,
-  },
-  stagger: 0.3,
-});
-
-gsap.from(".about_section-right", {
-  duration: 1,
-  opacity: 0,
-  y: 50,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: ".about_section-right",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: true,
-    once: true,
-  },
-  stagger: 0.3,
-});
-
-gsap.from(".about_section-left img, .about_section-right img", {
-  duration: 1,
-  opacity: 0,
-  y: 30,
-  stagger: 0.2,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: ".about_section-left img, .about_section-right img",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: true,
-    once: true,
-  },
-});
-
-gsap.from(".about_section-right p", {
-  duration: 1,
-  opacity: 0,
-  y: 20,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: ".about_section-right p",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: true,
-    once: true,
-  },
-});
-
-gsap.from(".prices_section-top", {
-  duration: 1.5,
-  opacity: 0,
-  y: 50,
-  ease: "power4.out",
-  scrollTrigger: {
-    trigger: ".prices_section-top",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: 1,
-    once: true,
-  },
-});
-
-gsap.from(".prices_section-bottom-card", {
-  duration: 1.2,
-  opacity: 0,
-  y: 40,
-  stagger: 0.2,
-  ease: "power4.out",
-  scrollTrigger: {
-    trigger: ".prices_section-bottom",
-    start: "top 80%",
-    end: "bottom 20%",
-    scrub: 1,
-    once: true,
-  },
-});
-
-gsap.registerPlugin(ScrollTrigger);
-
-gsap.from(".packaging_section-top", {
-  duration: 1.5,
-  opacity: 0,
-  y: 50,
-  ease: "power4.out",
-  scrollTrigger: {
-    trigger: ".packaging_section-top",
-    start: "top 80%",
-    end: "bottom 20%",
-    once: true,
-    scrub: false,
-    markers: false,
-  },
-});
-
-gsap.from(
-  ".packaging_section-bottom-card1, .packaging_section-bottom-card2, .packaging_section-bottom-card3",
-  {
-    duration: 1.2,
     opacity: 0,
-    y: 40,
-    stagger: 0.3,
+    y: 100,
+    duration: 2,
     ease: "power4.out",
+    rotate: 180,
+  });
+
+  gsap.from(".about_section-left img, .about_section-right img", {
     scrollTrigger: {
-      trigger: ".packaging_section-bottom",
+      trigger: ".about_section-right",
       start: "top 80%",
-      end: "bottom 20%", 
-      once: true,
-      scrub: false,
-      markers: false,
     },
-  }
-);
+    opacity: 0,
+    x: 150,
+    duration: 2.5,
+    ease: "expo.out",
+    rotate: -180,
+  });
+
+  gsap.from(".about_section-right p", {
+    scrollTrigger: {
+      trigger: ".about_section-right",
+      start: "top 80%",
+    },
+    opacity: 0,
+    y: 80,
+    duration: 2.5,
+    delay: 0.5,
+    ease: "power2.out",
+  });
+
+  // Animatsiya: Prices
+  gsap.from(".prices_section-bottom-card", {
+    scrollTrigger: {
+      trigger: ".prices_section-bottom",
+      start: "top 85%",
+      toggleActions: "play none none none",
+    },
+    opacity: 0,
+    y: 150,
+    rotate: 50,
+    duration: 2,
+    stagger: 0.6,
+    ease: "back.out(1.7)",
+  });
+
+  // Animatsiya: Packaging
+  gsap.from(
+    ".packaging_section-bottom-card1, .packaging_section-bottom-card2, .packaging_section-bottom-card3",
+    {
+      scrollTrigger: {
+        trigger: ".packaging_section-bottom",
+        start: "top 85%",
+        toggleActions: "play none none none",
+      },
+      opacity: 0,
+      y: 100,
+      stagger: 0.6,
+      duration: 2.5,
+      ease: "power3.out",
+    }
+  );
+}

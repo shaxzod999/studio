@@ -226,18 +226,18 @@ gsap.from(".prices_section-bottom-card", {
   ease: "back.out(1.7)",
 });
 
-// gsap.from(
-//   ".packaging_section-bottom-card1, .packaging_section-bottom-card2, .packaging_section-bottom-card3",
-//   {
-//     scrollTrigger: {
-//       trigger: ".packaging_section-bottom",
-//       start: "top 85%",
-//       toggleActions: "play none none none",
-//     },
-//     opacity: 0,
-//     y: 100,
-//     stagger: 0.6,
-//     duration: 2.5,
-//     ease: "power3.out",
-//   }
-// );
+gsap.from(
+  ".packaging_section-bottom-card1, .packaging_section-bottom-card2, .packaging_section-bottom-card3",
+  {
+    scrollTrigger: {
+      trigger: ".packaging_section-bottom",
+      start: "top 85%",
+      toggleActions: "play none none none",
+    },
+    opacity: 0,
+    y: 100,
+    stagger: 0.6,
+    duration: 2.5,
+    ease: "power3.out",
+  }
+);
